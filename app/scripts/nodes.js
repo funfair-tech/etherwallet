@@ -34,8 +34,8 @@ nodes.nodeList = {
         'chainId': 1,
         'tokenList': require('./tokens/ethTokens.json'),
         'abiList': require('./abiDefinitions/ethAbi.json'),
-        'service': 'MyEtherWallet',
-        'lib': new nodes.customNode('https://api.myetherapi.com/eth', '')
+        'service': 'FunFair',
+        'lib': new nodes.customNode('https://mainnet.funfair.io', '')
     },
     'eth_ethscan': {
         'name': 'ETH',

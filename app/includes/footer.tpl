@@ -14,7 +14,7 @@
 
     <section class="footer--left">
 
-      <a href="https://www.myetherwallet.com/"><img src="images/logo-myetherwallet.svg" height="45px" width="auto" alt="Ether Wallet" class="footer--logo"/></a>
+      <a href="https://mew.funfair.io/"><img src="images/logo-myetherwallet.svg" height="45px" width="auto" alt="Ether Wallet" class="footer--logo"/></a>
 
       <p><span translate="FOOTER_1">Free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.</span></p>
 
@@ -22,11 +22,11 @@
         Knowledge Base
       </a></p>
 
-      <p><a href="https://www.myetherwallet.com/helpers.html" target="_blank" rel="noopener" role="link" tabindex="0">
+      <p><a href="https://mew.funfair.io/helpers.html" target="_blank" rel="noopener" role="link" tabindex="0">
         Helpers &amp; ENS Debugging
       </a></p>
 
-      <p><a href="https://www.myetherwallet.com/signmsg.html" target="_blank" rel="noopener" role="link" tabindex="0">
+      <p><a href="https://mew.funfair.io/signmsg.html" target="_blank" rel="noopener" role="link" tabindex="0">
         Sign Message
       </a></p>
 

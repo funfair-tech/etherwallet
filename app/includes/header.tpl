@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>MyEtherWallet.com</title>
-  <link rel="canonical" href="https://www.myetherwallet.com" />
+  <link rel="canonical" href="https://mew.funfair.io" />
   <meta name="description" content="MyEtherWallet.com is a free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -20,7 +20,7 @@
   <meta name="msapplication-config" content="images/fav/browserconfig.xml">
   <meta name="theme-color" content="#163151">
   <meta name="google-site-verification" content="IpChQ00NYUQuNs_7Xs6xlnSdzalOlTUYbBsr8f7OpvM" />
-  <meta property="og:url"         content="https://www.myetherwallet.com" />
+  <meta property="og:url"         content="https://mew.funfair.io" />
   <meta property="og:title"       content="MyEtherWallet.com" />
   <meta property="og:image"       content="images/myetherwallet-logo-banner.png" />
   <meta property="og:image"       content="images/myetherwallet-logo.png" />
