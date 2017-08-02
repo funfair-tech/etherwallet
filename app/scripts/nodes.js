@@ -25,7 +25,7 @@ nodes.customNodeObj = {
     'lib': null
 };
 nodes.nodeList = {
-    'eth_mew': {
+    'eth_funfair': {
         'name': 'ETH',
         'blockExplorerTX': 'https://etherscan.io/tx/[[txHash]]',
         'blockExplorerAddr': 'https://etherscan.io/address/[[address]]',
@@ -37,7 +37,19 @@ nodes.nodeList = {
         'service': 'FunFair',
         'lib': new nodes.customNode('https://mainnet.funfair.io', '')
     },
-    'eth_ethscan': {
+    'rop_funfair': {
+        'name': 'Ropsten',
+        'type': nodes.nodeTypes.Ropsten,
+        'blockExplorerTX': 'https://ropsten.etherscan.io/tx/[[txHash]]',
+        'blockExplorerAddr': 'https://ropsten.etherscan.io/address/[[address]]',
+        'eip155': true,
+        'chainId': 3,
+        'tokenList': require('./tokens/ropstenTokens.json'),
+        'abiList': require('./abiDefinitions/ropstenAbi.json'),
+        'service': 'FunFair',
+        'lib': new nodes.customNode('https://ropsten.funfair.io', '')
+    }
+    /*'eth_ethscan': {
         'name': 'ETH',
         'blockExplorerTX': 'https://etherscan.io/tx/[[txHash]]',
         'blockExplorerAddr': 'https://etherscan.io/address/[[address]]',
@@ -145,7 +157,7 @@ nodes.nodeList = {
         'estimateGas': true,
         'service': 'GK2.sk',
         'lib': new nodes.customNode('https://rsk-test.gk2.sk/', '')
-    }
+    }*/
 };
 nodes.ethPrice = require('./nodeHelpers/ethPrice');
 module.exports = nodes;
