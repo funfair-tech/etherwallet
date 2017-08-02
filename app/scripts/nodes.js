@@ -48,6 +48,30 @@ nodes.nodeList = {
         'abiList': require('./abiDefinitions/ropstenAbi.json'),
         'service': 'FunFair',
         'lib': new nodes.customNode('https://ropsten.funfair.io', '')
+    },
+    'kov_funfair': {
+        'name': 'Kovan',
+        'type': nodes.nodeTypes.Kovan,
+        'blockExplorerTX': 'https://ropsten.etherscan.io/tx/[[txHash]]',
+        'blockExplorerAddr': 'https://ropsten.etherscan.io/address/[[address]]',
+        'eip155': true,
+        'chainId': 42,
+        'tokenList': require('./tokens/kovanTokens.json'),
+        'abiList': require('./abiDefinitions/kovanAbi.json'),
+        'service': 'FunFair',
+        'lib': new nodes.customNode('https://kovan.funfair.io', '')
+    },
+    'rin_funfair': {
+        'name': 'Rinkeby',
+        'blockExplorerTX': 'https://rinkeby.etherscan.io/tx/[[txHash]]',
+        'blockExplorerAddr': 'https://rinkeby.etherscan.io/address/[[address]]',
+        'type': nodes.nodeTypes.Rinkeby,
+        'eip155': true,
+        'chainId': 4,
+        'tokenList': require('./tokens/rinkebyTokens.json'),
+        'abiList': require('./abiDefinitions/rinkebyAbi.json'),
+        'service': 'FunFair',
+        'lib': new nodes.customNode('https:/rinkeby.funfair.io')
     }
     /*'eth_ethscan': {
         'name': 'ETH',
