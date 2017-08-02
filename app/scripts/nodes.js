@@ -71,7 +71,7 @@ nodes.nodeList = {
         'tokenList': require('./tokens/rinkebyTokens.json'),
         'abiList': require('./abiDefinitions/rinkebyAbi.json'),
         'service': 'FunFair',
-        'lib': new nodes.customNode('https:/rinkeby.funfair.io')
+        'lib': new nodes.customNode('https://rinkeby.funfair.io')
     }
     /*'eth_ethscan': {
         'name': 'ETH',
