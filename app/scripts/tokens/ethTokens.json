@@ -30,6 +30,12 @@
     "type":"default"
   },
   {
+    "address":"0x23ae3c5b39b12f0693e05435eeaa1e51d8c61530",
+    "symbol":"APT",
+    "decimal":18,
+    "type":"default"
+  },
+  {
     "address":"0xAc709FcB44a43c35F0DA4e3163b117A17F3770f5",
     "symbol":"ARC",
     "decimal":18,
@@ -216,8 +222,8 @@
     "type":"default"
   },
   {
-    "address":"0x1D921EeD55a6a9ccaA9C79B1A4f7B25556e44365",
-    "symbol":"GT",
+    "address":"0x025abad9e518516fdaafbdcdb9701b37fb7ef0fa",
+    "symbol":"GTKT",
     "decimal":0,
     "type":"default"
   },
@@ -254,6 +260,12 @@
   {
     "address":"0x773450335eD4ec3DB45aF74f34F2c85348645D39",
     "symbol":"JetCoins",
+    "decimal":18,
+    "type":"default"
+  },
+  {
+    "address":"0x8fa1EaD5d8d774b27d288711abE4d4258224ae26",
+    "symbol":"LOK",
     "decimal":18,
     "type":"default"
   },
@@ -309,6 +321,12 @@
     "address":"0x1a95B271B0535D15fa49932Daba31BA612b52946",
     "symbol":"MNE",
     "decimal":8,
+    "type":"default"
+  },
+  {
+    "address":"0xAB6CF87a50F17d7F5E1FEaf81B6fE9FfBe8EBF84",
+    "symbol":"MRV",
+    "decimal":18,
     "type":"default"
   },
   {
@@ -426,8 +444,14 @@
     "type":"default"
   },
   {
-    "address":"0x48c80F1f4D53D5951e5D5438B54Cba84f29F32a5",
+    "address":"0xE94327D07Fc17907b4DB788E5aDf2ed424adDff6",
     "symbol":"REP",
+    "decimal":18,
+    "type":"default"
+  },
+  {
+    "address":"0xf05a9382A4C3F29E2784502754293D88b835109C",
+    "symbol":"REX",
     "decimal":18,
     "type":"default"
   },
@@ -503,9 +527,15 @@
     "decimal":18,
     "type":"default"
   },
+   {
+    "address":"0x58bf7df57d9DA7113c4cCb49d8463D4908C735cb",
+    "symbol":"SPARC",
+    "decimal":18,
+    "type":"default"
+  },
   {
-    "address":"0x1dCE4Fa03639B7F0C38ee5bB6065045EdCf9819a",
-    "symbol":"SRC",
+    "address":"0x46492473755e8dF960F8034877F61732D718CE96",
+    "symbol":"STRC",
     "decimal":8,
     "type":"default"
   },
@@ -514,6 +544,12 @@
     "symbol":"STORJ",
     "decimal":8,
     "type":"default"
+  },
+  {
+   "address":"0x006BeA43Baa3f7A6f765F14f10A1a1b08334EF45",
+   "symbol":"STX",
+   "decimal":18,
+   "type":"default"
   },
   {
    "address":"0xB9e7F8568e08d5659f5D29C4997173d84CdF2607",
@@ -591,6 +627,12 @@
     "address":"0xeDBaF3c5100302dCddA53269322f3730b1F0416d",
     "symbol":"VRS",
     "decimal":5,
+    "type":"default"
+  },
+  {
+    "address":"0x6a0a97e47d15aad1d132a1ac79a480e3f2079063",
+    "symbol":"WCT",
+    "decimal":18,
     "type":"default"
   },
   {

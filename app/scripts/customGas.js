@@ -13,6 +13,13 @@
 
 module.exports = [
 {
+  // Stox Token Sale
+  to:         '0x40349A89114BB34d4E82e5Bf9AE6B2ac3c78b00a',
+  gasLimit:   200000,
+  data:       '',
+  msg:        'Stox Token Sale'
+},
+{
   // DCORP
   to:         '0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8',
   gasLimit:   21000,
@@ -46,6 +53,13 @@ module.exports = [
   gasLimit:   200000,
   data:       '',
   msg:        'Adchain. Starts June 26, 2017.'
+},
+{
+  // LookRev
+  to:         '0x8fa1EaD5d8d774b27d288711abE4d4258224ae26',
+  gasLimit:   200000,
+  data:       '',
+  msg:        'LookRev ICO address - lookrev.com'
 },
 {
   // OmiseGo
